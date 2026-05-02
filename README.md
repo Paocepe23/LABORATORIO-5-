@@ -162,6 +162,11 @@ El análisis mediante el diagrama de Poincaré complementó y confirmó estos ha
 
 En conclusión la parte donde se habla produce cambios medibles y cuantificables en el balance autonómico cardíaco. El sistema nervioso simpático se activa durante actividades que implican esfuerzo cognitivo y motor como la lectura en voz alta, reduciendo la variabilidad de la frecuencia cardíaca y aumentando la frecuencia cardíaca promedio. Estos cambios pueden ser detectados de manera no invasiva a través del análisis de la HRV utilizando herramientas como los parámetros temporales y el diagrama de Poincaré, lo que demuestra la utilidad clínica y experimental de estas técnicas en el estudio del sistema nervioso autónomo.
 
+# Declaración de uso de herramientas de IA
+Durante la elaboración de este laboratorio se utilizaron herramientas de inteligencia artificial basadas en modelos de lenguaje como apoyo en tareas de consulta, revisión de redacción y organización del código.
+
+Estas herramientas se emplearon únicamente como asistencia técnica para estructuración del documento, aclaración de conceptos y verificación de implementaciones en Python.
+
 
 
 
