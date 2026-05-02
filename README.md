@@ -98,6 +98,8 @@ Los resultados obtenidos se resumen en la siguiente tabla:
 Los resultados muestran que durante la lectura en voz alta la frecuencia cardíaca aumentó de aproximadamente 80 a 87 latidos por minuto, lo que se refleja en una disminución del intervalo R-R medio de 754.2 ms a 689.3 ms. Este comportamiento es consistente con una activación del sistema nervioso simpático durante la verbalización, ya que leer en voz alta implica un mayor esfuerzo cognitivo y motor que reduce el tono parasimpático dominante en reposo.
 
 El valor de SDNN del segmento 1 (166.2 ms) es notablemente mayor al del segmento 2 (79.2 ms), lo que indica que durante el reposo los intervalos R-R presentan mayor variabilidad, señal característica de un mayor tono vagal. En la lectura, la variabilidad se reduce considerablemente, lo que refleja un predominio simpático que regula el corazón de manera más rígida y constante. Estos hallazgos serán confirmados y complementados mediante el análisis del diagrama de Poincaré en la siguiente sección.
+<h1 align="center">Parte B.</h1>
+
 
 
 
