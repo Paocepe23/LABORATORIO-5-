@@ -152,7 +152,7 @@ Estos resultados son consistentes con lo reportado por Toichi et al. (1997), qui
 <p align="center"> <img width="820" height="1032" alt="diagrama_parteC" src="https://github.com/user-attachments/assets/b8b3c64f-675e-4314-8db6-eea96ff8823b" />
 
 
-## 5. Conclusiones
+## Conclusiones
 
 Se logró identificar y cuantificar los cambios en el balance autonómico del sistema nervioso mediante el análisis temporal y no lineal de la variabilidad de la frecuencia cardíaca (HRV), cumpliendo con el objetivo propuesto.
 
