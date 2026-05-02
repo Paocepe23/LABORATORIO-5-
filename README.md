@@ -98,7 +98,67 @@ Los resultados obtenidos se resumen en la siguiente tabla:
 Los resultados muestran que durante la lectura en voz alta la frecuencia cardíaca aumentó de aproximadamente 80 a 87 latidos por minuto, lo que se refleja en una disminución del intervalo R-R medio de 754.2 ms a 689.3 ms. Este comportamiento es consistente con una activación del sistema nervioso simpático durante la verbalización, ya que leer en voz alta implica un mayor esfuerzo cognitivo y motor que reduce el tono parasimpático dominante en reposo.
 
 El valor de SDNN del segmento 1 (166.2 ms) es notablemente mayor al del segmento 2 (79.2 ms), lo que indica que durante el reposo los intervalos R-R presentan mayor variabilidad, señal característica de un mayor tono vagal. En la lectura, la variabilidad se reduce considerablemente, lo que refleja un predominio simpático que regula el corazón de manera más rígida y constante. Estos hallazgos serán confirmados y complementados mediante el análisis del diagrama de Poincaré en la siguiente sección.
-<h1 align="center">Parte B.</h1>
+<h1 align="center">Parte C.</h1>
+
+<p align="center"> <img width="927" height="427" alt="partec1" src="https://github.com/user-attachments/assets/0d2f1958-1be9-495b-8c91-3153d13f62d6" />
+
+## Diagrama de Poincaré
+
+El diagrama de Poincaré es una herramienta de análisis no lineal de la variabilidad de la frecuencia cardíaca que consiste en graficar cada intervalo R-R contra el intervalo R-R siguiente, es decir, RRₙ en el eje X y RRₙ₊₁ en el eje Y. La nube de puntos resultante adopta típicamente una forma elipsoide cuya geometría permite caracterizar el balance autonómico del sujeto.
+
+Para cuantificar la forma de la elipse se calcularon dos parámetros estadísticos:
+
+- **SD1:** desviación estándar de los puntos proyectados sobre el eje perpendicular a la línea de identidad. Refleja la variabilidad latido a latido y está asociada principalmente a la actividad parasimpática (vagal).
+- **SD2:** desviación estándar de los puntos proyectados sobre el eje paralelo a la línea de identidad. Refleja la variabilidad a largo plazo y está asociada tanto a la actividad simpática como parasimpática.
+
+A partir de SD1 y SD2 se calcularon los ejes de la elipse y los índices autonómicos propuestos por Toichi et al. (1997):
+
+> **L = 4 × SD2** (eje longitudinal, paralelo a la línea identidad)
+
+> **T = 4 × SD1** (eje transversal, perpendicular a la línea identidad)
+
+> **CVI = log₁₀(L × T)** → Índice de actividad vagal (parasimpática)
+
+> **CSI = L / T** → Índice de actividad simpática
+
+## 4.7 Resultados del diagrama de Poincaré
+
+Los resultados obtenidos para cada segmento se presentan en la siguiente tabla:
+
+| Parámetro | Segmento 1 — Reposo | Segmento 2 — Lectura |
+|---|---|---|
+| SD1 (ms) | 134.7 | 56.3 |
+| SD2 (ms) | 193.4 | 97.2 |
+| L = 4×SD2 (ms) | 773.6 | 388.8 |
+| T = 4×SD1 (ms) | 538.8 | 225.2 |
+| **CVI = log₁₀(L×T)** | **5.6198** | **4.9427** |
+| **CSI = L/T** | **1.4363** | **1.7263** |
+
+## Análisis de los diagramas
+
+Al comparar los diagramas de Poincaré de ambos segmentos se observan diferencias claras tanto en la forma como en la dispersión de la nube de puntos.
+
+En el segmento 1 (reposo) la nube de puntos presenta una mayor dispersión general, con puntos distribuidos en un rango amplio de valores de R-R entre aproximadamente 400 ms y 1200 ms. Esto indica que durante el reposo el corazón presenta mayor variabilidad entre latidos consecutivos, lo cual es característico de un predominio del tono parasimpático. El valor de CVI obtenido (5.6198) es el más alto de los dos segmentos, confirmando una mayor actividad vagal, mientras que el CSI (1.4363) es el más bajo, lo que indica menor actividad simpática.
+
+En el segmento 2 (lectura en voz alta) la nube de puntos es más compacta y adopta una forma más alargada y estrecha a lo largo de la línea de identidad, con los puntos concentrados en un rango más reducido de valores entre aproximadamente 550 ms y 950 ms. Esto refleja una menor variabilidad latido a latido, característica de un predominio del tono simpático. El valor de CVI (4.9427) disminuyó con respecto al reposo, indicando menor actividad vagal, mientras que el CSI (1.7263) aumentó, confirmando una mayor actividad simpática durante la verbalización.
+
+Estos resultados son consistentes con lo reportado por Toichi et al. (1997), quienes demostraron que el CVI es un índice sensible exclusivamente a la actividad parasimpática y el CSI refleja el predominio simpático. La lectura en voz alta genera una demanda cognitiva y motora que activa el sistema nervioso simpático, reduciendo el tono vagal y disminuyendo la variabilidad de la frecuencia cardíaca, tal como se evidencia en los valores obtenidos.
+
+
+Aquí va la conclusión lista para copiar 👇
+
+---
+
+## 5. Conclusiones
+
+Se logró identificar y cuantificar los cambios en el balance autonómico del sistema nervioso mediante el análisis temporal y no lineal de la variabilidad de la frecuencia cardíaca (HRV), cumpliendo con el objetivo propuesto.
+
+El análisis en el dominio del tiempo mostró que durante el reposo el intervalo R-R medio fue de 754.2 ms con una desviación estándar (SDNN) de 166.2 ms, mientras que durante la lectura en voz alta el intervalo R-R medio disminuyó a 689.3 ms con un SDNN de 79.2 ms. Esto representa un aumento de la frecuencia cardíaca de aproximadamente 80 a 87 latidos por minuto y una reducción considerable de la variabilidad, lo cual es consistente con una activación del sistema nervioso simpático durante la verbalización.
+
+El análisis mediante el diagrama de Poincaré complementó y confirmó estos hallazgos. Durante el reposo se obtuvo una nube de puntos más dispersa con un CVI de 5.6198 y un CSI de 1.4363, indicando predominio del tono parasimpático. Durante la lectura en voz alta la nube se volvió más compacta y alargada, con un CVI de 4.9427 y un CSI de 1.7263, reflejando un mayor tono simpático y una menor actividad vagal. Estos resultados son coherentes con lo reportado por Toichi et al. (1997), quienes demostraron que el CVI y el CSI son índices confiables y sensibles para evaluar de manera independiente la actividad parasimpática y simpática respectivamente.
+
+En conclusión la parte donde se habla produce cambios medibles y cuantificables en el balance autonómico cardíaco. El sistema nervioso simpático se activa durante actividades que implican esfuerzo cognitivo y motor como la lectura en voz alta, reduciendo la variabilidad de la frecuencia cardíaca y aumentando la frecuencia cardíaca promedio. Estos cambios pueden ser detectados de manera no invasiva a través del análisis de la HRV utilizando herramientas como los parámetros temporales y el diagrama de Poincaré, lo que demuestra la utilidad clínica y experimental de estas técnicas en el estudio del sistema nervioso autónomo.
+
 
 
 
