@@ -41,6 +41,9 @@ CSI = L / T → sensible a la actividad simpática. Cuando el simpático domina,
 # Plan de acción Diagrama de flujo.
 <img width="900" height="1954" alt="diagrama_flujo_parte a" src="https://github.com/user-attachments/assets/a75dd685-7529-4ed1-8cbe-8f8ebaf5c51a" />
 
+<p align="center"><img width="820" height="778" alt="diagrama_parteA" src="https://github.com/user-attachments/assets/f3924fc1-bc3a-4417-b671-22a2acab5c98" />
+
+
 <h1 align="center">Parte B.</h1>
   
 ## Obtencion de la señal con bitalino. 
@@ -98,6 +101,8 @@ Los resultados obtenidos se resumen en la siguiente tabla:
 Los resultados muestran que durante la lectura en voz alta la frecuencia cardíaca aumentó de aproximadamente 80 a 87 latidos por minuto, lo que se refleja en una disminución del intervalo R-R medio de 754.2 ms a 689.3 ms. Este comportamiento es consistente con una activación del sistema nervioso simpático durante la verbalización, ya que leer en voz alta implica un mayor esfuerzo cognitivo y motor que reduce el tono parasimpático dominante en reposo.
 
 El valor de SDNN del segmento 1 (166.2 ms) es notablemente mayor al del segmento 2 (79.2 ms), lo que indica que durante el reposo los intervalos R-R presentan mayor variabilidad, señal característica de un mayor tono vagal. En la lectura, la variabilidad se reduce considerablemente, lo que refleja un predominio simpático que regula el corazón de manera más rígida y constante. Estos hallazgos serán confirmados y complementados mediante el análisis del diagrama de Poincaré en la siguiente sección.
+<p align="center"> <img width="820" height="1082" alt="diagrama_parteB" src="https://github.com/user-attachments/assets/09c40f5e-ea30-47fd-acb3-a071a7be6761" />
+
 <h1 align="center">Parte C.</h1>
 
 <p align="center"> <img width="927" height="427" alt="partec1" src="https://github.com/user-attachments/assets/0d2f1958-1be9-495b-8c91-3153d13f62d6" />
@@ -144,10 +149,8 @@ En el segmento 2 (lectura en voz alta) la nube de puntos es más compacta y adop
 
 Estos resultados son consistentes con lo reportado por Toichi et al. (1997), quienes demostraron que el CVI es un índice sensible exclusivamente a la actividad parasimpática y el CSI refleja el predominio simpático. La lectura en voz alta genera una demanda cognitiva y motora que activa el sistema nervioso simpático, reduciendo el tono vagal y disminuyendo la variabilidad de la frecuencia cardíaca, tal como se evidencia en los valores obtenidos.
 
+<p align="center"> <img width="820" height="1032" alt="diagrama_parteC" src="https://github.com/user-attachments/assets/b8b3c64f-675e-4314-8db6-eea96ff8823b" />
 
-Aquí va la conclusión lista para copiar 👇
-
----
 
 ## 5. Conclusiones
 
