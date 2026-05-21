@@ -60,10 +60,10 @@ Figura 6.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir
 ## Parte B.(BITalino)
   
 ## Obtencion de la señal con bitalino. 
-<p align="center"><img width="713" height="281" alt="grafica primeros 5 segundos" src="https://github.com/user-attachments/assets/9953947c-d60e-47c0-98fc-6897547ba46c" />
+<img width="713" height="281" alt="grafica primeros 5 segundos" src="https://github.com/user-attachments/assets/9953947c-d60e-47c0-98fc-6897547ba46c" />
 Grafica 5 seg
 
-<p align="center"><img width="1001" height="281" alt="grafica completa de los 4 minutos" src="https://github.com/user-attachments/assets/8cf7ac92-604a-48b1-bd02-b1232169e96e" />
+<img width="1001" height="281" alt="grafica completa de los 4 minutos" src="https://github.com/user-attachments/assets/8cf7ac92-604a-48b1-bd02-b1232169e96e" />
 Grafica 4 min
   
 <h1 align="center">Pre-procesamiento de la señal.</h1>
@@ -82,7 +82,7 @@ La implementación del filtro se realizó mediante la ecuación en diferencias c
 Donde los coeficientes b corresponden al numerador del filtro y los coeficientes a al denominador, obtenidos a partir del diseño Butterworth pasa-banda de orden 4 con frecuencia de muestreo de 100 Hz.
 
 ##  Segmentación de la señal
-<p align="center"> <img width="1001" height="498" alt="estesieselcorregidoprimeraparte" src="https://github.com/user-attachments/assets/7808c2aa-bbc3-49c0-b0d4-418d1f7fc2ec" />
+<img width="1001" height="498" alt="estesieselcorregidoprimeraparte" src="https://github.com/user-attachments/assets/7808c2aa-bbc3-49c0-b0d4-418d1f7fc2ec" />
 
 
 Una vez filtrada la señal, esta fue dividida en dos segmentos de igual duración, correspondientes a las dos condiciones experimentales registradas:
@@ -117,9 +117,9 @@ Los resultados muestran que durante la lectura en voz alta la frecuencia cardía
 El valor de SDNN del segmento 1 (166.2 ms) es notablemente mayor al del segmento 2 (79.2 ms), lo que indica que durante el reposo los intervalos R-R presentan mayor variabilidad, señal característica de un mayor tono vagal. En la lectura, la variabilidad se reduce considerablemente, lo que refleja un predominio simpático que regula el corazón de manera más rígida y constante. Estos hallazgos serán confirmados y complementados mediante el análisis del diagrama de Poincaré en la siguiente sección.
 <p align="center"> <img width="820" height="1082" alt="diagrama_parteB" src="https://github.com/user-attachments/assets/09c40f5e-ea30-47fd-acb3-a071a7be6761" />
 
-<h1 align="center">Parte C.(BITalino)</h1>
+# Parte C.(BITalino)</h1>
 
-<p align="center"> <img width="927" height="427" alt="partec1" src="https://github.com/user-attachments/assets/0d2f1958-1be9-495b-8c91-3153d13f62d6" />
+<img width="927" height="427" alt="partec1" src="https://github.com/user-attachments/assets/0d2f1958-1be9-495b-8c91-3153d13f62d6" />
 
 ## Diagrama de Poincaré
 
@@ -140,7 +140,7 @@ A partir de SD1 y SD2 se calcularon los ejes de la elipse y los índices autonó
 
 > **CSI = L / T** → Índice de actividad simpática
 
-## 4.7 Resultados del diagrama de Poincaré
+## Resultados del diagrama de Poincaré
 
 Los resultados obtenidos para cada segmento se presentan en la siguiente tabla:
 
