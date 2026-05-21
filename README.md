@@ -5,14 +5,9 @@
 
  <img width="650" height="500" alt="sistema nervioso" src="https://github.com/user-attachments/assets/d8d2fb75-4ee7-4021-8ff9-6aa02254f850" />
 
-  Figura 1. El sistema nervioso autónomo y sus divisiones. Adaptado de El sistema nervioso autónomo, por Saluteca, s.f., (https://www.saluteca.com/el-sistema-nervioso-autonomo/).
-La parte simpática prepara al cuerpo para situaciones de estrés o actividad (pelea o huida), mientras que la parte parasimpática promueve el descanso y la recuperación (reposa y digiere).
-
 ### Efecto de la actividad simpática y parasimpática en la frecuencia cardíaca.
 
  <img width="682" height="616" alt="image" src="https://github.com/user-attachments/assets/1b200544-c569-4c67-9d7f-ce7975b77491" />
-
-Figura 2. Esquema del Sistema Nervioso Autónomo (SNA) y efectos cardíacos. > Nota. Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
 
 El simpático  hace que a través de las fibras que liberan noradrenalina, acelerando la despolarización; el parasimpático actúa vía el nervio vago liberando acetilcolina, desacelerándola. En condiciones normales de reposo, el tono vagal (parasimpático) domina.
 
@@ -20,18 +15,13 @@ El simpático  hace que a través de las fibras que liberan noradrenalina, acele
 
  <img width="764" height="392" alt="Gemini_Generated_Image_yns3vryns3vryns3" src="https://github.com/user-attachments/assets/7fbb670f-d6cb-4ea8-bce4-49ed6f9119b9" />
   
-Figura 3.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
-  
 El ECG registra la actividad eléctrica del corazón. De cada latido se extrae el pico R, y la distancia entre picos R consecutivos se llama intervalo R-R (en ms). La HRV es simplemente la variación de esos intervalos a lo largo del tiempo.
 
 ### Diagrama de Poincaré como herramienta de análisis de la serie R-R. 
 <img width="517" height="458" alt="image" src="https://github.com/user-attachments/assets/b7e9c148-e68c-4a23-9513-a5e020afb1fe" />
   
-Figura 4.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
   
 <img width="279" height="360" alt="image" src="https://github.com/user-attachments/assets/4b3e91f4-5430-47de-9daa-c52249f4a4a8" />
-
-Figura 5.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
 
 T = longitud del eje transversal (perpendicular a la identidad). Refleja la variación latido a latido. Se ve afectado tanto por el simpático como por el parasimpático.
 
@@ -44,9 +34,6 @@ CSI = L / T → sensible a la actividad simpática. Cuando el simpático domina,
 ### Lo que se espera obtener en reposo.
 <img width="380" height="412" alt="image" src="https://github.com/user-attachments/assets/ff330e56-60ea-4e24-892d-84bc74bfe164" />
 
-  
-Figura 6.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
-  
 ### Lo que se espera obtener en la lectura.
 <p align="center"><img width="383" height="422" alt="image" src="https://github.com/user-attachments/assets/098cdaee-c173-4d98-a0ec-093f6a820f3a" />
 
