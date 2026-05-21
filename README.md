@@ -35,7 +35,7 @@ CSI = L / T → sensible a la actividad simpática. Cuando el simpático domina,
 <img width="380" height="412" alt="image" src="https://github.com/user-attachments/assets/ff330e56-60ea-4e24-892d-84bc74bfe164" />
 
 ### Lo que se espera obtener en la lectura.
-<p align="center"><img width="383" height="422" alt="image" src="https://github.com/user-attachments/assets/098cdaee-c173-4d98-a0ec-093f6a820f3a" />
+<img width="383" height="422" alt="image" src="https://github.com/user-attachments/assets/098cdaee-c173-4d98-a0ec-093f6a820f3a" />
 
 
 # Plan de acción Diagrama de flujo.
@@ -48,13 +48,15 @@ CSI = L / T → sensible a la actividad simpática. Cuando el simpático domina,
   
 ## Obtencion de la señal con bitalino. 
 <img width="713" height="281" alt="grafica primeros 5 segundos" src="https://github.com/user-attachments/assets/9953947c-d60e-47c0-98fc-6897547ba46c" />
+
 Grafica 5 seg
 
 <img width="1001" height="281" alt="grafica completa de los 4 minutos" src="https://github.com/user-attachments/assets/8cf7ac92-604a-48b1-bd02-b1232169e96e" />
+
 Grafica 4 min
   
 <h1 align="center">Pre-procesamiento de la señal.</h1>
-<p align="center"><img width="1001" height="427" alt="partedosgrafico1" src="https://github.com/user-attachments/assets/c920d936-0a2b-4506-a717-2bbd551cfbbc" />
+<img width="1001" height="427" alt="partedosgrafico1" src="https://github.com/user-attachments/assets/c920d936-0a2b-4506-a717-2bbd551cfbbc" />
 
 La señal ECG adquirida con el dispositivo Bitalino fue sometida a un proceso de filtrado digital con el fin de eliminar las componentes de ruido presentes en la señal cruda. Para esto se diseñó un filtro IIR de tipo Butterworth pasa-banda de orden 4 con frecuencias de corte de 0.5 Hz y 40 Hz.
 
@@ -80,7 +82,7 @@ Una vez filtrada la señal, esta fue dividida en dos segmentos de igual duració
 Cada segmento tiene una duración exacta de 2 minutos, equivalente a 12.000 muestras a una frecuencia de muestreo de 100 Hz.
 
 ##  Detección de picos R y cálculo de intervalos R-R
-<p align="center"> <img width="857" height="427" alt="partedosgrafico3" src="https://github.com/user-attachments/assets/b469305c-7ed4-41c7-bb0a-ce16e6f8a987" />
+ <img width="857" height="427" alt="partedosgrafico3" src="https://github.com/user-attachments/assets/b469305c-7ed4-41c7-bb0a-ce16e6f8a987" />
 
 
 La detección de los picos R en cada segmento se realizó utilizando la función `find_peaks` de la librería SciPy, con un umbral adaptativo basado en el percentil 90 de la señal, lo cual permite evitar que artefactos aislados de gran amplitud distorsionen la detección. Adicionalmente, se estableció una distancia mínima de 0.4 segundos entre picos consecutivos, equivalente a una frecuencia cardíaca máxima de 150 latidos por minuto.
@@ -88,6 +90,7 @@ La detección de los picos R en cada segmento se realizó utilizando la función
 Una vez identificados los picos R, se calcularon los intervalos R-R como la diferencia en tiempo entre picos consecutivos, expresada en milisegundos. Se descartaron aquellos intervalos fisiológicamente imposibles, es decir, menores a 300 ms o mayores a 2000 ms.
 
 Los resultados obtenidos se resumen en la siguiente tabla:
+
 
 | Parámetro | Segmento 1 — Reposo | Segmento 2 — Lectura |
 |---|---|---|
@@ -102,7 +105,7 @@ Los resultados obtenidos se resumen en la siguiente tabla:
 Los resultados muestran que durante la lectura en voz alta la frecuencia cardíaca aumentó de aproximadamente 80 a 87 latidos por minuto, lo que se refleja en una disminución del intervalo R-R medio de 754.2 ms a 689.3 ms. Este comportamiento es consistente con una activación del sistema nervioso simpático durante la verbalización, ya que leer en voz alta implica un mayor esfuerzo cognitivo y motor que reduce el tono parasimpático dominante en reposo.
 
 El valor de SDNN del segmento 1 (166.2 ms) es notablemente mayor al del segmento 2 (79.2 ms), lo que indica que durante el reposo los intervalos R-R presentan mayor variabilidad, señal característica de un mayor tono vagal. En la lectura, la variabilidad se reduce considerablemente, lo que refleja un predominio simpático que regula el corazón de manera más rígida y constante. Estos hallazgos serán confirmados y complementados mediante el análisis del diagrama de Poincaré en la siguiente sección.
-<p align="center"> <img width="820" height="1082" alt="diagrama_parteB" src="https://github.com/user-attachments/assets/09c40f5e-ea30-47fd-acb3-a071a7be6761" />
+<img width="820" height="1082" alt="diagrama_parteB" src="https://github.com/user-attachments/assets/09c40f5e-ea30-47fd-acb3-a071a7be6761" />
 
 # Parte 1C.(BITalino)</h1>
 
@@ -189,7 +192,11 @@ ParámetroSegmento 1 — ReposoSegmento 2 — LecturaPicos R detectados148158Int
 # PARTE 3C.
 <img width="820" height="1110" alt="diagrama_parteC_v2" src="https://github.com/user-attachments/assets/9a9d1758-59db-4c2f-9b1b-3d0de9ab2746" />
 
+
 <img width="929" height="427" alt="parte1Cseñalenvivofiltrada" src="https://github.com/user-attachments/assets/48d3254a-2cec-495b-b0ae-57412590a64f" />
+
+
+
 | Parámetro | Segmento 1 — Reposo | Segmento 2 — Lectura |
 |---|---|---|
 | SD1 (ms) | 80.6 | 80.2 |
