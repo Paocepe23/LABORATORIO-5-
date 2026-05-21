@@ -1,5 +1,5 @@
 # Laboratorio 5
-## Parte A.(BITalino)
+## Parte 1A.
   
 ### Actividad simpática y parasimpática del sistema nervioso autónomo.
 
@@ -44,7 +44,7 @@ CSI = L / T → sensible a la actividad simpática. Cuando el simpático domina,
 <img width="820" height="778" alt="diagrama_parteA" src="https://github.com/user-attachments/assets/f3924fc1-bc3a-4417-b671-22a2acab5c98" />
 
 
-## Parte B.(BITalino)
+## Parte 1B.
   
 ## Obtencion de la señal con bitalino. 
 <img width="713" height="281" alt="grafica primeros 5 segundos" src="https://github.com/user-attachments/assets/9953947c-d60e-47c0-98fc-6897547ba46c" />
@@ -104,7 +104,7 @@ Los resultados muestran que durante la lectura en voz alta la frecuencia cardía
 El valor de SDNN del segmento 1 (166.2 ms) es notablemente mayor al del segmento 2 (79.2 ms), lo que indica que durante el reposo los intervalos R-R presentan mayor variabilidad, señal característica de un mayor tono vagal. En la lectura, la variabilidad se reduce considerablemente, lo que refleja un predominio simpático que regula el corazón de manera más rígida y constante. Estos hallazgos serán confirmados y complementados mediante el análisis del diagrama de Poincaré en la siguiente sección.
 <p align="center"> <img width="820" height="1082" alt="diagrama_parteB" src="https://github.com/user-attachments/assets/09c40f5e-ea30-47fd-acb3-a071a7be6761" />
 
-# Parte C.(BITalino)</h1>
+# Parte 1C.(BITalino)</h1>
 
 <img width="927" height="427" alt="partec1" src="https://github.com/user-attachments/assets/0d2f1958-1be9-495b-8c91-3153d13f62d6" />
 
@@ -154,13 +154,13 @@ Estos resultados son consistentes con lo reportado por Toichi et al. (1997), qui
 
 
 
-# PARTE A. (AD8232)
+# PARTE 2A. 
 <img width="820" height="992" alt="diagrama_parteA_v2" src="https://github.com/user-attachments/assets/33de3178-6e56-4567-a91f-8b5714a82b58" />
 La señal ECG fue adquirida en tiempo real mediante el sensor AD8232 conectado a un Arduino Uno, transmitiendo los datos por comunicación serial a 115200 baudios hacia el computador, donde fueron procesados en Python usando el entorno Spyder. La frecuencia de muestreo utilizada fue de 100 Hz, apropiada para la captura de señales ECG. Se grabaron 4 minutos continuos de señal, correspondientes a 23.866 muestras.
 Para eliminar el ruido presente en la señal cruda se diseñó e implementó un filtro digital IIR de tipo Butterworth pasa-banda de orden 4, con frecuencias de corte de 0.5 Hz y 40 Hz. Se eligió el filtro Butterworth porque presenta una respuesta en frecuencia maximalmente plana dentro de la banda de paso, lo que garantiza que la forma de onda del ECG no sea distorsionada durante el filtrado. El límite inferior de 0.5 Hz elimina la deriva de línea base producida por la respiración y el movimiento del cuerpo. El límite superior de 40 Hz elimina el ruido de alta frecuencia proveniente de la actividad muscular involuntaria y de interferencias eléctricas del entorno.
 <img width="1001" height="427" alt="parte1Aseñalenvivofiltrada" src="https://github.com/user-attachments/assets/8ce1606b-9690-44a6-ad11-5d5d44514e0d" />
 
-# PARTE B.(AD8232)
+# PARTE 2B.
 <img width="820" height="992" alt="diagrama_parteA_v2" src="https://github.com/user-attachments/assets/e362368f-c70e-4b1c-8987-4b8c45fb1310" />
 La implementación del filtro se realizó mediante la ecuación en diferencias correspondiente a un filtro IIR, asumiendo condiciones iniciales iguales a cero, es decir, y[−1] = y[−2] = ... = 0 y x[−1] = x[−2] = ... = 0. La forma general de la ecuación es:
 
@@ -186,7 +186,7 @@ ParámetroSegmento 1 — ReposoSegmento 2 — LecturaPicos R detectados148158Int
 
 
 
-<h1 align="center">PARTE C. (AD8232)</h1>
+# PARTE 3C.
 <img width="820" height="1110" alt="diagrama_parteC_v2" src="https://github.com/user-attachments/assets/9a9d1758-59db-4c2f-9b1b-3d0de9ab2746" />
 
 <img width="929" height="427" alt="parte1Cseñalenvivofiltrada" src="https://github.com/user-attachments/assets/48d3254a-2cec-495b-b0ae-57412590a64f" />
