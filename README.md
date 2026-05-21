@@ -190,6 +190,13 @@ y[n] = b₀·x[n] + b₁·x[n−1] + b₂·x[n−2] + ... + b₈·x[n−8] − a
 Para el procesamiento en tiempo real, el filtro se aplicó muestra a muestra usando la función lfilter de SciPy, actualizando el estado interno del filtro en cada nueva muestra recibida del Arduino, lo que garantiza la causalidad y la correcta implementación de las condiciones iniciales en cero.
 <img width="1001" height="498" alt="parte2Aseñalenvivofiltrada" src="https://github.com/user-attachments/assets/be17a2fd-2e44-444e-bf63-7d90b11a5679" />
 <img width="857" height="427" alt="parte3Aseñalenvivofiltrada" src="https://github.com/user-attachments/assets/798a20e4-f143-4062-89e4-7a03772352c7" />
+| Parámetro | Segmento 1 — Reposo | Segmento 2 — Lectura |
+|---|---|---|
+| Picos R detectados | 148 | 158 |
+| Intervalos R-R válidos | 147 | 157 |
+| Media R-R | 812.8 ms | 753.3 ms |
+| FC promedio | ≈ 74 lpm | ≈ 80 lpm |
+| SDNN | 111.3 ms | 98.3 ms |
 La señal filtrada fue dividida en dos segmentos de exactamente 120 segundos cada uno, correspondientes a las dos condiciones experimentales registradas:
 
 Segmento 1 (0–120 s): el sujeto permaneció en reposo completo, inmóvil y en silencio total.
@@ -204,6 +211,14 @@ ParámetroSegmento 1 — ReposoSegmento 2 — LecturaPicos R detectados148158Int
 <img width="820" height="1110" alt="diagrama_parteC_v2" src="https://github.com/user-attachments/assets/9a9d1758-59db-4c2f-9b1b-3d0de9ab2746" />
 
 <img width="929" height="427" alt="parte1Cseñalenvivofiltrada" src="https://github.com/user-attachments/assets/48d3254a-2cec-495b-b0ae-57412590a64f" />
+| Parámetro | Segmento 1 — Reposo | Segmento 2 — Lectura |
+|---|---|---|
+| SD1 (ms) | 80.6 | 80.2 |
+| SD2 (ms) | 135.7 | 111.1 |
+| L = 4×SD2 (ms) | 542.8 | 444.4 |
+| T = 4×SD1 (ms) | 322.4 | 320.8 |
+| **CVI = log₁₀(L×T)** | **5.2432** | **5.1541** |
+| **CSI = L/T** | **1.6829** | **1.3845** |
 
 En el segmento de reposo la nube de puntos presenta mayor dispersión general, con un CVI de 5.2432 que es el más alto de los dos segmentos, confirmando mayor actividad vagal. El CSI de 1.6829 indica un nivel moderado de actividad simpática en reposo.
 En el segmento de lectura en voz alta el SD2 disminuyó de 135.7 ms a 111.1 ms, indicando menor variabilidad a largo plazo, y el CVI disminuyó a 5.1541, reflejando menor actividad vagal durante la verbalización. El CSI disminuyó a 1.3845, lo cual sugiere que aunque la frecuencia cardíaca aumentó, la relación entre los ejes de la elipse cambió de manera consistente con el esfuerzo cognitivo y motor de la lectura.
