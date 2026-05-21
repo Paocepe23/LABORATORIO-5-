@@ -1,16 +1,16 @@
-<h1 align="center">Laboratorio 5</h1>
-<h1 align="center">Parte A.(BITalino)</h1>
+# Laboratorio 5
+## Parte A.(BITalino)
   
 ### Actividad simpática y parasimpática del sistema nervioso autónomo.
 
-<p align="center"> <img width="650" height="500" alt="sistema nervioso" src="https://github.com/user-attachments/assets/d8d2fb75-4ee7-4021-8ff9-6aa02254f850" />
+ <img width="650" height="500" alt="sistema nervioso" src="https://github.com/user-attachments/assets/d8d2fb75-4ee7-4021-8ff9-6aa02254f850" />
 
   Figura 1. El sistema nervioso autónomo y sus divisiones. Adaptado de El sistema nervioso autónomo, por Saluteca, s.f., (https://www.saluteca.com/el-sistema-nervioso-autonomo/).
 La parte simpática prepara al cuerpo para situaciones de estrés o actividad (pelea o huida), mientras que la parte parasimpática promueve el descanso y la recuperación (reposa y digiere).
 
 ### Efecto de la actividad simpática y parasimpática en la frecuencia cardíaca.
 
-<p align="center"> <img width="682" height="616" alt="image" src="https://github.com/user-attachments/assets/1b200544-c569-4c67-9d7f-ce7975b77491" />
+ <img width="682" height="616" alt="image" src="https://github.com/user-attachments/assets/1b200544-c569-4c67-9d7f-ce7975b77491" />
 
 Figura 2. Esquema del Sistema Nervioso Autónomo (SNA) y efectos cardíacos. > Nota. Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
 
@@ -18,14 +18,14 @@ El simpático  hace que a través de las fibras que liberan noradrenalina, acele
 
 ### Variabilidad de la frecuencia cardíaca (HRV) obtenida a partir de la señal electrocardiográfica (ECG)
 
-<p align="center"> <img width="764" height="392" alt="Gemini_Generated_Image_yns3vryns3vryns3" src="https://github.com/user-attachments/assets/7fbb670f-d6cb-4ea8-bce4-49ed6f9119b9" />
+ <img width="764" height="392" alt="Gemini_Generated_Image_yns3vryns3vryns3" src="https://github.com/user-attachments/assets/7fbb670f-d6cb-4ea8-bce4-49ed6f9119b9" />
   
 Figura 3.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
   
 El ECG registra la actividad eléctrica del corazón. De cada latido se extrae el pico R, y la distancia entre picos R consecutivos se llama intervalo R-R (en ms). La HRV es simplemente la variación de esos intervalos a lo largo del tiempo.
 
 ### Diagrama de Poincaré como herramienta de análisis de la serie R-R. 
-<p align="center"> <img width="517" height="458" alt="image" src="https://github.com/user-attachments/assets/b7e9c148-e68c-4a23-9513-a5e020afb1fe" />
+<img width="517" height="458" alt="image" src="https://github.com/user-attachments/assets/b7e9c148-e68c-4a23-9513-a5e020afb1fe" />
   
 Figura 4.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
   
@@ -42,7 +42,7 @@ CVI = log₁₀(L × T) → sensible exclusivamente a la actividad vagal (parasi
 CSI = L / T → sensible a la actividad simpática. Cuando el simpático domina, la elipse se vuelve más larga y delgada.
   
 ### Lo que se espera obtener en reposo.
-<p align="center"><img width="380" height="412" alt="image" src="https://github.com/user-attachments/assets/ff330e56-60ea-4e24-892d-84bc74bfe164" />
+<img width="380" height="412" alt="image" src="https://github.com/user-attachments/assets/ff330e56-60ea-4e24-892d-84bc74bfe164" />
 
   
 Figura 6.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
@@ -54,10 +54,10 @@ Figura 6.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir
 # Plan de acción Diagrama de flujo.
 <img width="900" height="1954" alt="diagrama_flujo_parte a" src="https://github.com/user-attachments/assets/a75dd685-7529-4ed1-8cbe-8f8ebaf5c51a" />
 
-<p align="center"><img width="820" height="778" alt="diagrama_parteA" src="https://github.com/user-attachments/assets/f3924fc1-bc3a-4417-b671-22a2acab5c98" />
+<img width="820" height="778" alt="diagrama_parteA" src="https://github.com/user-attachments/assets/f3924fc1-bc3a-4417-b671-22a2acab5c98" />
 
 
-<h1 align="center">Parte B.(BITalino)</h1>
+## Parte B.(BITalino)
   
 ## Obtencion de la señal con bitalino. 
 <p align="center"><img width="713" height="281" alt="grafica primeros 5 segundos" src="https://github.com/user-attachments/assets/9953947c-d60e-47c0-98fc-6897547ba46c" />
@@ -163,25 +163,17 @@ En el segmento 2 (lectura en voz alta) la nube de puntos es más compacta y adop
 
 Estos resultados son consistentes con lo reportado por Toichi et al. (1997), quienes demostraron que el CVI es un índice sensible exclusivamente a la actividad parasimpática y el CSI refleja el predominio simpático. La lectura en voz alta genera una demanda cognitiva y motora que activa el sistema nervioso simpático, reduciendo el tono vagal y disminuyendo la variabilidad de la frecuencia cardíaca, tal como se evidencia en los valores obtenidos.
 
-<p align="center"> <img width="820" height="1032" alt="diagrama_parteC" src="https://github.com/user-attachments/assets/b8b3c64f-675e-4314-8db6-eea96ff8823b" />
+<img width="820" height="1032" alt="diagrama_parteC" src="https://github.com/user-attachments/assets/b8b3c64f-675e-4314-8db6-eea96ff8823b" />
 
 
-## Conclusiones
 
-Se logró identificar y cuantificar los cambios en el balance autonómico del sistema nervioso mediante el análisis temporal y no lineal de la variabilidad de la frecuencia cardíaca (HRV), cumpliendo con el objetivo propuesto.
-
-El análisis en el dominio del tiempo mostró que durante el reposo el intervalo R-R medio fue de 754.2 ms con una desviación estándar (SDNN) de 166.2 ms, mientras que durante la lectura en voz alta el intervalo R-R medio disminuyó a 689.3 ms con un SDNN de 79.2 ms. Esto representa un aumento de la frecuencia cardíaca de aproximadamente 80 a 87 latidos por minuto y una reducción considerable de la variabilidad, lo cual es consistente con una activación del sistema nervioso simpático durante la verbalización.
-
-El análisis mediante el diagrama de Poincaré complementó y confirmó estos hallazgos. Durante el reposo se obtuvo una nube de puntos más dispersa con un CVI de 5.6198 y un CSI de 1.4363, indicando predominio del tono parasimpático. Durante la lectura en voz alta la nube se volvió más compacta y alargada, con un CVI de 4.9427 y un CSI de 1.7263, reflejando un mayor tono simpático y una menor actividad vagal. Estos resultados son coherentes con lo reportado por Toichi et al. (1997), quienes demostraron que el CVI y el CSI son índices confiables y sensibles para evaluar de manera independiente la actividad parasimpática y simpática respectivamente.
-
-En conclusión la parte donde se habla produce cambios medibles y cuantificables en el balance autonómico cardíaco. El sistema nervioso simpático se activa durante actividades que implican esfuerzo cognitivo y motor como la lectura en voz alta, reduciendo la variabilidad de la frecuencia cardíaca y aumentando la frecuencia cardíaca promedio. Estos cambios pueden ser detectados de manera no invasiva a través del análisis de la HRV utilizando herramientas como los parámetros temporales y el diagrama de Poincaré, lo que demuestra la utilidad clínica y experimental de estas técnicas en el estudio del sistema nervioso autónomo.
-<h1 align="center">PARTE A. (AD8232)</h1>
+# PARTE A. (AD8232)
 <img width="820" height="992" alt="diagrama_parteA_v2" src="https://github.com/user-attachments/assets/33de3178-6e56-4567-a91f-8b5714a82b58" />
 La señal ECG fue adquirida en tiempo real mediante el sensor AD8232 conectado a un Arduino Uno, transmitiendo los datos por comunicación serial a 115200 baudios hacia el computador, donde fueron procesados en Python usando el entorno Spyder. La frecuencia de muestreo utilizada fue de 100 Hz, apropiada para la captura de señales ECG. Se grabaron 4 minutos continuos de señal, correspondientes a 23.866 muestras.
 Para eliminar el ruido presente en la señal cruda se diseñó e implementó un filtro digital IIR de tipo Butterworth pasa-banda de orden 4, con frecuencias de corte de 0.5 Hz y 40 Hz. Se eligió el filtro Butterworth porque presenta una respuesta en frecuencia maximalmente plana dentro de la banda de paso, lo que garantiza que la forma de onda del ECG no sea distorsionada durante el filtrado. El límite inferior de 0.5 Hz elimina la deriva de línea base producida por la respiración y el movimiento del cuerpo. El límite superior de 40 Hz elimina el ruido de alta frecuencia proveniente de la actividad muscular involuntaria y de interferencias eléctricas del entorno.
 <img width="1001" height="427" alt="parte1Aseñalenvivofiltrada" src="https://github.com/user-attachments/assets/8ce1606b-9690-44a6-ad11-5d5d44514e0d" />
 
-<h1 align="center">PARTE B.(AD8232)</h1>
+# PARTE B.(AD8232)
 <img width="820" height="992" alt="diagrama_parteA_v2" src="https://github.com/user-attachments/assets/e362368f-c70e-4b1c-8987-4b8c45fb1310" />
 La implementación del filtro se realizó mediante la ecuación en diferencias correspondiente a un filtro IIR, asumiendo condiciones iniciales iguales a cero, es decir, y[−1] = y[−2] = ... = 0 y x[−1] = x[−2] = ... = 0. La forma general de la ecuación es:
 
