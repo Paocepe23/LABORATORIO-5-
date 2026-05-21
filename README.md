@@ -1,5 +1,5 @@
 <h1 align="center">Laboratorio 5</h1>
-<h1 align="center">Parte A.</h1>
+<h1 align="center">Parte A.(BITalino)</h1>
   
 ### Actividad simpática y parasimpática del sistema nervioso autónomo.
 
@@ -57,7 +57,7 @@ Figura 6.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir
 <p align="center"><img width="820" height="778" alt="diagrama_parteA" src="https://github.com/user-attachments/assets/f3924fc1-bc3a-4417-b671-22a2acab5c98" />
 
 
-<h1 align="center">Parte B.</h1>
+<h1 align="center">Parte B.(BITalino)</h1>
   
 ## Obtencion de la señal con bitalino. 
 <p align="center"><img width="713" height="281" alt="grafica primeros 5 segundos" src="https://github.com/user-attachments/assets/9953947c-d60e-47c0-98fc-6897547ba46c" />
@@ -117,7 +117,7 @@ Los resultados muestran que durante la lectura en voz alta la frecuencia cardía
 El valor de SDNN del segmento 1 (166.2 ms) es notablemente mayor al del segmento 2 (79.2 ms), lo que indica que durante el reposo los intervalos R-R presentan mayor variabilidad, señal característica de un mayor tono vagal. En la lectura, la variabilidad se reduce considerablemente, lo que refleja un predominio simpático que regula el corazón de manera más rígida y constante. Estos hallazgos serán confirmados y complementados mediante el análisis del diagrama de Poincaré en la siguiente sección.
 <p align="center"> <img width="820" height="1082" alt="diagrama_parteB" src="https://github.com/user-attachments/assets/09c40f5e-ea30-47fd-acb3-a071a7be6761" />
 
-<h1 align="center">Parte C.</h1>
+<h1 align="center">Parte C.(BITalino)</h1>
 
 <p align="center"> <img width="927" height="427" alt="partec1" src="https://github.com/user-attachments/assets/0d2f1958-1be9-495b-8c91-3153d13f62d6" />
 
