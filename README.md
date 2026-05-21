@@ -175,6 +175,40 @@ El análisis en el dominio del tiempo mostró que durante el reposo el intervalo
 El análisis mediante el diagrama de Poincaré complementó y confirmó estos hallazgos. Durante el reposo se obtuvo una nube de puntos más dispersa con un CVI de 5.6198 y un CSI de 1.4363, indicando predominio del tono parasimpático. Durante la lectura en voz alta la nube se volvió más compacta y alargada, con un CVI de 4.9427 y un CSI de 1.7263, reflejando un mayor tono simpático y una menor actividad vagal. Estos resultados son coherentes con lo reportado por Toichi et al. (1997), quienes demostraron que el CVI y el CSI son índices confiables y sensibles para evaluar de manera independiente la actividad parasimpática y simpática respectivamente.
 
 En conclusión la parte donde se habla produce cambios medibles y cuantificables en el balance autonómico cardíaco. El sistema nervioso simpático se activa durante actividades que implican esfuerzo cognitivo y motor como la lectura en voz alta, reduciendo la variabilidad de la frecuencia cardíaca y aumentando la frecuencia cardíaca promedio. Estos cambios pueden ser detectados de manera no invasiva a través del análisis de la HRV utilizando herramientas como los parámetros temporales y el diagrama de Poincaré, lo que demuestra la utilidad clínica y experimental de estas técnicas en el estudio del sistema nervioso autónomo.
+<h1 align="center">PARTE A. (AD8232)</h1>
+<img width="820" height="992" alt="diagrama_parteA_v2" src="https://github.com/user-attachments/assets/33de3178-6e56-4567-a91f-8b5714a82b58" />
+La señal ECG fue adquirida en tiempo real mediante el sensor AD8232 conectado a un Arduino Uno, transmitiendo los datos por comunicación serial a 115200 baudios hacia el computador, donde fueron procesados en Python usando el entorno Spyder. La frecuencia de muestreo utilizada fue de 100 Hz, apropiada para la captura de señales ECG. Se grabaron 4 minutos continuos de señal, correspondientes a 23.866 muestras.
+Para eliminar el ruido presente en la señal cruda se diseñó e implementó un filtro digital IIR de tipo Butterworth pasa-banda de orden 4, con frecuencias de corte de 0.5 Hz y 40 Hz. Se eligió el filtro Butterworth porque presenta una respuesta en frecuencia maximalmente plana dentro de la banda de paso, lo que garantiza que la forma de onda del ECG no sea distorsionada durante el filtrado. El límite inferior de 0.5 Hz elimina la deriva de línea base producida por la respiración y el movimiento del cuerpo. El límite superior de 40 Hz elimina el ruido de alta frecuencia proveniente de la actividad muscular involuntaria y de interferencias eléctricas del entorno.
+<img width="1001" height="427" alt="parte1Aseñalenvivofiltrada" src="https://github.com/user-attachments/assets/8ce1606b-9690-44a6-ad11-5d5d44514e0d" />
+
+<h1 align="center">PARTE B.(AD8232)</h1>
+<img width="820" height="992" alt="diagrama_parteA_v2" src="https://github.com/user-attachments/assets/e362368f-c70e-4b1c-8987-4b8c45fb1310" />
+La implementación del filtro se realizó mediante la ecuación en diferencias correspondiente a un filtro IIR, asumiendo condiciones iniciales iguales a cero, es decir, y[−1] = y[−2] = ... = 0 y x[−1] = x[−2] = ... = 0. La forma general de la ecuación es:
+
+y[n] = b₀·x[n] + b₁·x[n−1] + b₂·x[n−2] + ... + b₈·x[n−8] − a₁·y[n−1] − a₂·y[n−2] − ... − a₈·y[n−8]
+
+Para el procesamiento en tiempo real, el filtro se aplicó muestra a muestra usando la función lfilter de SciPy, actualizando el estado interno del filtro en cada nueva muestra recibida del Arduino, lo que garantiza la causalidad y la correcta implementación de las condiciones iniciales en cero.
+<img width="1001" height="498" alt="parte2Aseñalenvivofiltrada" src="https://github.com/user-attachments/assets/be17a2fd-2e44-444e-bf63-7d90b11a5679" />
+<img width="857" height="427" alt="parte3Aseñalenvivofiltrada" src="https://github.com/user-attachments/assets/798a20e4-f143-4062-89e4-7a03772352c7" />
+La señal filtrada fue dividida en dos segmentos de exactamente 120 segundos cada uno, correspondientes a las dos condiciones experimentales registradas:
+
+Segmento 1 (0–120 s): el sujeto permaneció en reposo completo, inmóvil y en silencio total.
+Segmento 2 (120–240 s): el sujeto realizó lectura en voz alta de un texto seleccionado.
+
+Cada segmento corresponde a 12.000 muestras a una frecuencia de muestreo de 100 Hz.
+ParámetroSegmento 1 — ReposoSegmento 2 — LecturaPicos R detectados148158Intervalos R-R válidos147157Media R-R812.8 ms753.3 msFC promedio≈ 74 lpm≈ 80 lpmSDNN111.3 ms98.3 ms
+
+
+
+<h1 align="center">PARTE C. (AD8232)</h1>
+<img width="820" height="1110" alt="diagrama_parteC_v2" src="https://github.com/user-attachments/assets/9a9d1758-59db-4c2f-9b1b-3d0de9ab2746" />
+
+<img width="929" height="427" alt="parte1Cseñalenvivofiltrada" src="https://github.com/user-attachments/assets/48d3254a-2cec-495b-b0ae-57412590a64f" />
+
+En el segmento de reposo la nube de puntos presenta mayor dispersión general, con un CVI de 5.2432 que es el más alto de los dos segmentos, confirmando mayor actividad vagal. El CSI de 1.6829 indica un nivel moderado de actividad simpática en reposo.
+En el segmento de lectura en voz alta el SD2 disminuyó de 135.7 ms a 111.1 ms, indicando menor variabilidad a largo plazo, y el CVI disminuyó a 5.1541, reflejando menor actividad vagal durante la verbalización. El CSI disminuyó a 1.3845, lo cual sugiere que aunque la frecuencia cardíaca aumentó, la relación entre los ejes de la elipse cambió de manera consistente con el esfuerzo cognitivo y motor de la lectura.
+Estos resultados son coherentes con lo reportado por Toichi et al. (1997) y confirman que la verbalización produce cambios medibles en el balance autonómico cardíaco detectables mediante el análisis del diagrama de Poincaré.
+
 
 # Declaración de uso de herramientas de IA
 Durante la elaboración de este laboratorio se utilizaron herramientas de inteligencia artificial basadas en modelos de lenguaje como apoyo en tareas de consulta, revisión de redacción y organización del código.
