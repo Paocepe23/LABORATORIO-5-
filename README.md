@@ -43,6 +43,8 @@ CSI = L / T → sensible a la actividad simpática. Cuando el simpático domina,
   
 ### Lo que se espera obtener en reposo.
 <p align="center"><img width="380" height="412" alt="image" src="https://github.com/user-attachments/assets/ff330e56-60ea-4e24-892d-84bc74bfe164" />
+
+  
 Figura 6.  Imagen generada por inteligencia artificial [Gemini 3 Flash] a partir de la información de Saluteca (s.f.).
   
 ### Lo que se espera obtener en la lectura.
@@ -80,7 +82,8 @@ La implementación del filtro se realizó mediante la ecuación en diferencias c
 Donde los coeficientes b corresponden al numerador del filtro y los coeficientes a al denominador, obtenidos a partir del diseño Butterworth pasa-banda de orden 4 con frecuencia de muestreo de 100 Hz.
 
 ##  Segmentación de la señal
-<p align="center"> <img width="1001" height="498" alt="partedosgrafico2" src="https://github.com/user-attachments/assets/c2ee3c13-57d8-4381-9775-597af32ac0ca" />
+<p align="center"> <img width="1001" height="498" alt="estesieselcorregidoprimeraparte" src="https://github.com/user-attachments/assets/7808c2aa-bbc3-49c0-b0d4-418d1f7fc2ec" />
+
 
 Una vez filtrada la señal, esta fue dividida en dos segmentos de igual duración, correspondientes a las dos condiciones experimentales registradas:
 
