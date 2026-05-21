@@ -210,6 +210,16 @@ En el segmento de reposo la nube de puntos presenta mayor dispersión general, c
 En el segmento de lectura en voz alta el SD2 disminuyó de 135.7 ms a 111.1 ms, indicando menor variabilidad a largo plazo, y el CVI disminuyó a 5.1541, reflejando menor actividad vagal durante la verbalización. El CSI disminuyó a 1.3845, lo cual sugiere que aunque la frecuencia cardíaca aumentó, la relación entre los ejes de la elipse cambió de manera consistente con el esfuerzo cognitivo y motor de la lectura.
 Estos resultados son coherentes con lo reportado por Toichi et al. (1997) y confirman que la verbalización produce cambios medibles en el balance autonómico cardíaco detectables mediante el análisis del diagrama de Poincaré.
 
+# CONCLUSIONES
+La lectura en voz alta activa el sistema nervioso simpático y reduce el tono parasimpático, evidenciado por el aumento de la frecuencia cardíaca y la disminución de la variabilidad R-R en los dos experimentos.
+
+El CVI es mayor en reposo y menor durante la lectura en ambos casos, y el patrón del CSI también sigue la dirección esperada, lo que valida la robustez del método de Toichi et al. (1997) independientemente del dispositivo de adquisición.
+
+En la señal BITalino la diferencia de Media R-R entre reposo y lectura fue de 64.9 ms, mientras que en la señal AD8232 fue de 59.5 ms — valores muy similares que sugieren que ambos dispositivos capturan el mismo fenómeno autonómico con fidelidad comparable.
+
+El SDNN fue notablemente mayor en la señal BITalino (166.2 ms en reposo) comparado con el AD8232 (111.3 ms). Esto puede explicarse por diferencias en la calidad de contacto de los electrodos el tipo de electrodo usado o variaciones naturales entre sujetos o momentos de medición distintos.
+
+El AD8232 demostró ser un dispositivo funcional para análisis HRV en tiempo real, permitiendo visualizar el filtrado de la señal de manera simultánea a la adquisición, lo que representa una ventaja metodológica sobre la adquisición y análisis diferido del BITalino.
 
 # Declaración de uso de herramientas de IA
 Durante la elaboración de este laboratorio se utilizaron herramientas de inteligencia artificial basadas en modelos de lenguaje como apoyo en tareas de consulta, revisión de redacción y organización del código.
