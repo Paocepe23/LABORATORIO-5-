@@ -235,6 +235,28 @@ Durante la elaboración de este laboratorio se utilizaron herramientas de inteli
 
 Estas herramientas se emplearon únicamente como asistencia técnica para estructuración del documento, aclaración de conceptos y verificación de implementaciones en Python.
 
+## ¿Cómo reproducir este laboratorio?
+
+### Requisitos
+- Python 3.x con librerías: numpy, matplotlib, scipy, pyserial
+- Arduino IDE con el sketch arduinoad8232.ino cargado en Arduino Uno
+- Sensor AD8232 conectado según el diagrama de conexiones
+
+### Pasos
+1. Clonar este repositorio
+2. Para señal grabada: correr lab5codA.py → lab5codB.py → lab5codC.py
+3. Para señal en tiempo real: correr grabar_ecg.py y luego repetir paso 2
+   con ARCHIVO = "ecg_ad8232.txt"
+
+### Estructura del repositorio
+- lab5codA.py → visualización señal cruda
+- lab5codB.py → filtro IIR, picos R, HRV temporal  
+- lab5codC.py → diagrama de Poincaré, CVI y CSI
+- grabar_ecg.py → grabación en tiempo real con AD8232
+- arduinoad8232.ino → código Arduino para el sensor
+- laboratorio5.txt → señal BITalino
+- ecg_ad8232.txt → señal AD8232 en tiempo real
+
 
 
 
