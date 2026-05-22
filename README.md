@@ -107,7 +107,7 @@ Los resultados muestran que durante la lectura en voz alta la frecuencia cardía
 El valor de SDNN del segmento 1 (166.2 ms) es notablemente mayor al del segmento 2 (79.2 ms), lo que indica que durante el reposo los intervalos R-R presentan mayor variabilidad, señal característica de un mayor tono vagal. En la lectura, la variabilidad se reduce considerablemente, lo que refleja un predominio simpático que regula el corazón de manera más rígida y constante. Estos hallazgos serán confirmados y complementados mediante el análisis del diagrama de Poincaré en la siguiente sección.
 <img width="820" height="1082" alt="diagrama_parteB" src="https://github.com/user-attachments/assets/09c40f5e-ea30-47fd-acb3-a071a7be6761" />
 
-# Parte 1C.(BITalino)</h1>
+# Parte 1C.
 
 <img width="927" height="427" alt="partec1" src="https://github.com/user-attachments/assets/0d2f1958-1be9-495b-8c91-3153d13f62d6" />
 
